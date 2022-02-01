@@ -69,15 +69,17 @@
           "type": "string"
         }
       },
-      "if": {
-        "properties":  { "map_label": {  "const": "on" } } 
-      },
-      "then": {
-        "properties": { "map_label_font": { 
-          "type": "string",
-          "default": "sansserif",
-          "description": "Font of grid labels"
-        } }
-      }
+      "dependentSchemas": {
+        "map_label": {
+      
+          "properties": { 
+            "map_label_font": { 
+              "type": "string",
+              "default": "sansserif",
+              "description": "Font of grid labels"
+            } 
         }
       }
+    }
+  }
+}
