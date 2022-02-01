@@ -37,8 +37,6 @@
           "default": "on",
           "type": "string"
         }
-      },
-     
       }
     },
     "map_grid": {
@@ -82,4 +80,6 @@
       }
     }
   }
+  }
 }
+
