@@ -70,6 +70,7 @@ extensions = [
     "IPython.sphinxext.ipython_directive",
     "IPython.sphinxext.ipython_console_highlighting",
     "sphinx.ext.graphviz",
+    "sphinx-jsonschema",
     # "sphinx-prompt",
     # "climetlab.sphinxext.sources",
     # "climetlab.sphinxext.command_output",
