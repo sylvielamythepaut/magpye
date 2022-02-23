@@ -17,7 +17,7 @@ from magpye import GeoMap
 
 map = GeoMap(area_name="europe")
 
-map.contour_shaded("data/tp_acc.grib", style=accumulated_tp_1000)
+map.contour_shaded("data/tp_acc.grib", style="accumulated_tp_1000")
 map.gridlines(line_style="dash")
 map.coastlines()
 map.show()

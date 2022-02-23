@@ -17,7 +17,7 @@ from magpye import GeoMap
 
 map = GeoMap(area_name="europe")
 
-map.contour_shaded("data/q.grib", style=specific_humidity_rainbow_1)
+map.contour_shaded("data/q.grib", style="specific_humidity_rainbow_1")
 map.gridlines(line_style="dash")
 map.coastlines()
 map.show()

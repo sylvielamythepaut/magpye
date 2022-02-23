@@ -17,7 +17,7 @@ from magpye import GeoMap
 
 map = GeoMap(area_name="europe")
 map.coastlines(land_colour='grey')
-map.contour_lines("data/10si.grib", style=black_i5_label)
+map.contour_lines("data/10si.grib", style="black_i5_label")
 map.gridlines(line_style="dash")
 map.coastlines()
 map.show()

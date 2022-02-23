@@ -36,7 +36,7 @@ from magpye import GeoMap
 
 map = GeoMap(area_name="europe")
 {background}
-map.{method}("{data}", style={style})
+map.{method}("{data}", style="{style}")
 map.gridlines(line_style="dash")
 map.coastlines()
 map.show()

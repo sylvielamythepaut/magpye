@@ -17,7 +17,7 @@ from magpye import GeoMap
 
 map = GeoMap(area_name="europe")
 
-map.contour_shaded("data/tprate.grib", style=precipitation_rate_rainbow)
+map.contour_shaded("data/tprate.grib", style="precipitation_rate_rainbow")
 map.gridlines(line_style="dash")
 map.coastlines()
 map.show()
