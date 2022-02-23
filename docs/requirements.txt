@@ -4,7 +4,7 @@ filelock
 nbsphinx
 sphinx_rtd_theme
 sphinx-panels
-sphinx-jsonschema
+Sphinx-Gallery
 pyyaml
 Pygments>=2.6.1
 tqdm

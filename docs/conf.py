@@ -22,18 +22,16 @@ top = os.path.realpath(os.path.dirname(os.path.dirname(__file__)))
 sys.path.insert(0, top)
 
 
-
-
 source_suffix = ".rst"
 master_doc = "index"
 pygments_style = "sphinx"
 html_theme_options = {"logo_only": True}
-html_logo = "_static/logo.png"
+html_logo = "_static/magpye.png"
 
 
 # -- Project information -----------------------------------------------------
 
-project = "ecmwf-geomaps"
+project = "magpye"
 
 author = "ECMWF"
 
@@ -70,7 +68,7 @@ extensions = [
     "IPython.sphinxext.ipython_directive",
     "IPython.sphinxext.ipython_console_highlighting",
     "sphinx.ext.graphviz",
-    "sphinx-jsonschema",
+    "sphinx_gallery.gen_gallery",
     # "sphinx-prompt",
     # "climetlab.sphinxext.sources",
     # "climetlab.sphinxext.command_output",
@@ -126,3 +124,11 @@ html_css_files = ["style.css"]
 
 # See https://www.sphinx-doc.org/en/master/usage/extensions/graphviz.html
 graphviz_output_format = "svg"
+
+
+sphinx_gallery_conf = {
+    "examples_dirs": ["gallery/geoareas"],  # path to your example scripts
+    "gallery_dirs": [
+        "auto_gallery/geoareas"
+    ],  # path to where to save gallery generated output
+}

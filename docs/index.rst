@@ -21,7 +21,9 @@ Documentation
 * :doc:`overview`
 * :doc:`installing`
 * :doc:`notebooks`
-* :doc:`geoareas`
+* :doc:`auto_gallery/geoareas/index`
+* :doc:`styles`
+* 
 
 .. toctree::
    :maxdepth: 1
@@ -31,7 +33,8 @@ Documentation
    overview
    installing
    notebooks
-   geoareas
+   auto_gallery/geoareas/index
+   styles
 
 
 **Reference**
