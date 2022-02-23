@@ -127,8 +127,12 @@ graphviz_output_format = "svg"
 
 
 sphinx_gallery_conf = {
-    "examples_dirs": ["gallery/geoareas"],  # path to your example scripts
+    "examples_dirs": [
+        "gallery/geoareas",
+        "gallery/styles"
+        ],  # path to your example scripts
     "gallery_dirs": [
-        "auto_gallery/geoareas"
+        "auto_gallery/geoareas",
+        "auto_gallery/styles"
     ],  # path to where to save gallery generated output
 }

@@ -22,7 +22,7 @@ Documentation
 * :doc:`installing`
 * :doc:`notebooks`
 * :doc:`auto_gallery/geoareas/index`
-* :doc:`styles`
+* :doc:`auto_gallery/styles/index`
 * 
 
 .. toctree::
@@ -34,7 +34,7 @@ Documentation
    installing
    notebooks
    auto_gallery/geoareas/index
-   styles
+   auto_gallery/styles/index
 
 
 **Reference**
