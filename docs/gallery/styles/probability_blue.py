@@ -24,6 +24,7 @@ map = GeoMap(area_name="europe")
 map.contour_shaded("tpg1.grib", style="probability_blue")
 map.gridlines(line_style="dash")
 map.coastlines()
+map.legend()
 map.save("probability_blue.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/probability_blue.png'

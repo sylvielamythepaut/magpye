@@ -24,6 +24,7 @@ map = GeoMap(area_name="europe")
 map.contour_shaded("msl_es.grib", style="msl_spread_magenta")
 map.gridlines(line_style="dash")
 map.coastlines()
+map.legend()
 map.save("msl_spread_magenta.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/msl_spread_magenta.png'

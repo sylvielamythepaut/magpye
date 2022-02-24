@@ -45,6 +45,7 @@ map = GeoMap(area_name="europe")
 map.{method}("{data}", style="{style}")
 map.gridlines(line_style="dash")
 map.coastlines()
+map.legend()
 map.save("{style}.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/{style}.png'
@@ -67,6 +68,7 @@ def contour_shaded(data, style):
     map.contour_shaded(data, style = style)
     map.gridlines(line_style="dash")
     map.coastlines()
+    map.legend()
     map.save("_static/styles/{}.png".format(style))
     gallery("contour_shaded", data, style, background="")
 
@@ -76,6 +78,7 @@ def contour_lines(data, style):
     map.contour_lines(data, style = style)
     map.gridlines(line_style="dash")
     map.coastlines()
+    map.legend()
     map.save("_static/styles/{}.png".format(style))
     gallery("contour_lines", data, style, background="map.coastlines(land_colour='grey')")
 

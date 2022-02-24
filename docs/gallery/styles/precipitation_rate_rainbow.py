@@ -24,6 +24,7 @@ map = GeoMap(area_name="europe")
 map.contour_shaded("tprate.grib", style="precipitation_rate_rainbow")
 map.gridlines(line_style="dash")
 map.coastlines()
+map.legend()
 map.save("precipitation_rate_rainbow.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/precipitation_rate_rainbow.png'

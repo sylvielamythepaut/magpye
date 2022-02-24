@@ -24,6 +24,7 @@ map = GeoMap(area_name="europe")
 map.contour_shaded("q.grib", style="specific_humidity_rainbow_1")
 map.gridlines(line_style="dash")
 map.coastlines()
+map.legend()
 map.save("specific_humidity_rainbow_1.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/specific_humidity_rainbow_1.png'

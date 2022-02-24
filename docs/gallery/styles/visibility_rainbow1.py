@@ -24,6 +24,7 @@ map = GeoMap(area_name="europe")
 map.contour_shaded("vis.grib", style="visibility_rainbow1")
 map.gridlines(line_style="dash")
 map.coastlines()
+map.legend()
 map.save("visibility_rainbow1.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/visibility_rainbow1.png'

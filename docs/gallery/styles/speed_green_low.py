@@ -24,6 +24,7 @@ map = GeoMap(area_name="europe")
 map.contour_shaded("10si.grib", style="speed_green_low")
 map.gridlines(line_style="dash")
 map.coastlines()
+map.legend()
 map.save("speed_green_low.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/speed_green_low.png'

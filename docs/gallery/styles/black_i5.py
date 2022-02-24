@@ -24,6 +24,7 @@ map.coastlines(land_colour='grey')
 map.contour_lines("msl.grib", style="black_i5")
 map.gridlines(line_style="dash")
 map.coastlines()
+map.legend()
 map.save("black_i5.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/black_i5.png'
