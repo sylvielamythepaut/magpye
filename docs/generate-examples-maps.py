@@ -17,6 +17,8 @@ from magpye import GeoMap
 
 def gallery(method, data, style, background):
     fname = "gallery/styles/{}.py".format(style)
+    name = os.path.basename(data)
+    
     script = '''
 """
 {style}
@@ -30,6 +32,12 @@ def gallery(method, data, style, background):
 | **magpye** has a list of predefined styles, that can be used to visualise your data.
 | More options are available to customise your visualisation.
 
+Need some data to try ? 
+-----------------------
+
+The data for this example can be downloaded from one of our repositories:   
+http://get.ecmwf.int/repository/magpye/data/{data}
+
 """
 
 from magpye import GeoMap
@@ -39,8 +47,7 @@ map = GeoMap(area_name="europe")
 map.{method}("{data}", style="{style}")
 map.gridlines(line_style="dash")
 map.coastlines()
-map.show()
-
+map.save("{style}.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/{style}.png'
 
@@ -48,7 +55,7 @@ map.show()
         style=style,
         background=background,
         method=method, 
-        data=data
+        data=name
     )
 
     with open(fname, "w") as stream:

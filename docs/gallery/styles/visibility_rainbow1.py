@@ -11,17 +11,22 @@ visibility_rainbow1
 | **magpye** has a list of predefined styles, that can be used to visualise your data.
 | More options are available to customise your visualisation.
 
+Need some data to try ? 
+-----------------------
+
+The data for this example can be downloaded from one of our repositories:   
+http://get.ecmwf.int/repository/magpye/data/vis.grib
+
 """
 
 from magpye import GeoMap
 
 map = GeoMap(area_name="europe")
 
-map.contour_shaded("data/vis.grib", style="visibility_rainbow1")
+map.contour_shaded("vis.grib", style="visibility_rainbow1")
 map.gridlines(line_style="dash")
 map.coastlines()
-map.show()
-
+map.save("visibility_rainbow1.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/visibility_rainbow1.png'
 

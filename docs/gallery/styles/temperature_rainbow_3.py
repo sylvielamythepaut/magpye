@@ -11,17 +11,22 @@ temperature_rainbow_3
 | **magpye** has a list of predefined styles, that can be used to visualise your data.
 | More options are available to customise your visualisation.
 
+Need some data to try ? 
+-----------------------
+
+The data for this example can be downloaded from one of our repositories:   
+http://get.ecmwf.int/repository/magpye/data/2t.grib
+
 """
 
 from magpye import GeoMap
 
 map = GeoMap(area_name="europe")
 
-map.contour_shaded("data/2t.grib", style="temperature_rainbow_3")
+map.contour_shaded("2t.grib", style="temperature_rainbow_3")
 map.gridlines(line_style="dash")
 map.coastlines()
-map.show()
-
+map.save("temperature_rainbow_3.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/temperature_rainbow_3.png'
 

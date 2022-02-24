@@ -11,17 +11,22 @@ precipitation_rate_rainbow
 | **magpye** has a list of predefined styles, that can be used to visualise your data.
 | More options are available to customise your visualisation.
 
+Need some data to try ? 
+-----------------------
+
+The data for this example can be downloaded from one of our repositories:   
+http://get.ecmwf.int/repository/magpye/data/tprate.grib
+
 """
 
 from magpye import GeoMap
 
 map = GeoMap(area_name="europe")
 
-map.contour_shaded("data/tprate.grib", style="precipitation_rate_rainbow")
+map.contour_shaded("tprate.grib", style="precipitation_rate_rainbow")
 map.gridlines(line_style="dash")
 map.coastlines()
-map.show()
-
+map.save("precipitation_rate_rainbow.png")
 
 # sphinx_gallery_thumbnail_path = '_static/styles/precipitation_rate_rainbow.png'
 
