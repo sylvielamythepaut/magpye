@@ -12,7 +12,12 @@ speed_spread_magenta
 | More options are available to customise your visualisation.
 
 The data for this example can be downloaded from one of our repositories:   
-`<http://get.ecmwf.int/repository/magpye/data/10si_spread.grib>`_
+|location_link|
+
+.. |location_link| raw:: html
+
+   <a href="http://get.ecmwf.int/repository/magpye/data/10si_spread.grib"> http://get.ecmwf.int/repository/magpye/data/10si_spread.grib  </a>
+
 
 """
 
