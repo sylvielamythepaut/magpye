@@ -12,7 +12,7 @@ precipitation_blue_red_250
 | More options are available to customise your visualisation.
 
 The data for this example can be downloaded from one of our repositories:   
-`<http://get.ecmwf.int/repository/magpye/data/tp.grib>`_
+`<https://get.ecmwf.int/repository/magpye/data/tp.grib>`_
 
 
 """

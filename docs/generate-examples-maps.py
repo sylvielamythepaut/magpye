@@ -33,7 +33,7 @@ def gallery(method, data, style, background):
 | More options are available to customise your visualisation.
 
 The data for this example can be downloaded from one of our repositories:   
-`<http://get.ecmwf.int/repository/magpye/data/{data}>`_
+`<https://get.ecmwf.int/repository/magpye/data/{data}>`_
 
 
 """
