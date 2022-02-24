@@ -22,7 +22,7 @@ from magpye import GeoMap
 map = GeoMap(area_name="europe")
 
 map.contour_shaded("tp_acc.grib", style="accumulated_tp_1000")
-map.gridlines(line_style="dash")
+map.gridlines(line_style="dash", labels=False)
 map.coastlines()
 map.legend()
 map.save("accumulated_tp_1000.png")

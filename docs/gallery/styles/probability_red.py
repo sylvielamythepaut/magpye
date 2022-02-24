@@ -22,7 +22,7 @@ from magpye import GeoMap
 map = GeoMap(area_name="europe")
 
 map.contour_shaded("tpg1.grib", style="probability_red")
-map.gridlines(line_style="dash")
+map.gridlines(line_style="dash", labels=False)
 map.coastlines()
 map.legend()
 map.save("probability_red.png")

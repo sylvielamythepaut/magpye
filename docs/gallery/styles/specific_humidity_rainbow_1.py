@@ -22,7 +22,7 @@ from magpye import GeoMap
 map = GeoMap(area_name="europe")
 
 map.contour_shaded("q.grib", style="specific_humidity_rainbow_1")
-map.gridlines(line_style="dash")
+map.gridlines(line_style="dash", labels=False)
 map.coastlines()
 map.legend()
 map.save("specific_humidity_rainbow_1.png")
