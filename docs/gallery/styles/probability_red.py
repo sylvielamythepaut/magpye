@@ -11,11 +11,8 @@ probability_red
 | **magpye** has a list of predefined styles, that can be used to visualise your data.
 | More options are available to customise your visualisation.
 
-Need some data to try ? 
------------------------
-
 The data for this example can be downloaded from one of our repositories:   
-http://get.ecmwf.int/repository/magpye/data/tpg1.grib
+`<http://get.ecmwf.int/repository/magpye/data/tpg1.grib>`_
 
 """
 

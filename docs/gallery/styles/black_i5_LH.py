@@ -11,11 +11,8 @@ black_i5_LH
 | **magpye** has a list of predefined styles, that can be used to visualise your data.
 | More options are available to customise your visualisation.
 
-Need some data to try ? 
------------------------
-
 The data for this example can be downloaded from one of our repositories:   
-http://get.ecmwf.int/repository/magpye/data/msl_es.grib
+`<http://get.ecmwf.int/repository/magpye/data/msl_es.grib>`_
 
 """
 
